@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(45deg, #3c8cde, #ed73a8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.733)
+    }
+
+
+#game-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#problem {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#answer {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid transparent;
+  transition: .5s; 
+}
+
+#result {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+#score-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#score {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+#congrats-card {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
+
+#congrats-card h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#congrats-card p {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#play-again-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#play-again-btn:hover {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid transparent;
+    transition: .5s; 
+}
